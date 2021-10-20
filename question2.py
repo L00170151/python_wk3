@@ -5,6 +5,7 @@ Created :07/10/2021
 Author  : Eoin O'Mahony
 """
 import random
+import pytest
 
 if __name__ == '__main__':
     # create the lists of names
