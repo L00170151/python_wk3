@@ -6,9 +6,15 @@ Author  : Eoin O'Mahony
 """
 
 import pytest
+from lotto_example import Lotto
 
-def func(x):
-    return x +1
 
-def test_answer():
-    assert func(4) == 5
+def test_lotto():
+    x = Lotto
+    assert x.lotto(Lotto, 21) == "Passed"
+
+
+def test_lotto_negative():
+    x = Lotto
+    assert x.lotto(Lotto, 9) == "Failed"
+
