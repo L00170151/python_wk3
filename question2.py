@@ -66,3 +66,4 @@ if __name__ == '__main__':
             print(str(i) + " had the same number both weeks")
         else:
             print(str(i) + " had different numbers both weeks")
+
