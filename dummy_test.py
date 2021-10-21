@@ -1,6 +1,6 @@
 """
 #
-File    :tests.py
+File    :dummy_test.py
 Created :20/10/2021
 Author  : Eoin O'Mahony
 """
